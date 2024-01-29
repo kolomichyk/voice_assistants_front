@@ -1,0 +1,16 @@
+
+body, html { 
+    margin: 0;
+}
+
+.mainPage {
+    min-height: 100vh;
+    width: 100%;
+}
+
+.mainPageWrapper {
+    width: 1300px;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: #4284D3;
+}

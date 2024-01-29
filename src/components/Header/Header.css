@@ -1,0 +1,22 @@
+.header {
+    height: 8%;
+    background-color: 	#482A83;  
+}
+
+.contentHeader {
+    padding-top: 1.2%;
+    padding-left: 3%;
+    display: flex;
+}
+
+.titleHeader {
+    font-size: 25px;
+    color: white;
+    margin-right: 300px;
+}
+
+.buttonHeader {
+    color: white;
+    font-size: 25px;
+    margin-right: 50px;
+}
