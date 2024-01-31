@@ -1,0 +1,30 @@
+
+body, html { 
+    margin: 0;
+}
+
+.mainPage {
+    min-height: 100vh;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* This will stack the children vertically */
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* This will stack the children vertically */
+  }
+
+.mainPageWrapper {
+    width: 1300px;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: #4284D3;
+}
