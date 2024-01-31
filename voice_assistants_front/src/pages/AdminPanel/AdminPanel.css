@@ -1,0 +1,19 @@
+.selectContainer {
+    display: block;
+    margin: auto;
+    /* padding: 20px 0; */
+    padding-bottom: 20;
+}
+
+.selectContainer select {
+    padding: 10px;
+    border: none;
+    background-color: #f0f0f0;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.selectContainer select:hover {
+    background-color: #ddd;
+}

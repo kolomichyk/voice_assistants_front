@@ -1,0 +1,31 @@
+.table-container {
+    display: flex;
+    justify-content: center; /* центрирование по горизонтали */
+    align-items: center; /* центрирование по вертикали */
+    height: 100vh; /* высота контейнера равна высоте окна просмотра */
+ }
+ 
+ table {
+    width: 50%; /* ширина таблицы составляет половину ширины контейнера */
+    border-collapse: collapse; /* объединение границ ячеек */
+ }
+ 
+ th, td {
+    border: 1px solid black; /* добавление границ к ячейкам */
+    padding: 10px; /* отступы вокруг содержимого ячеек */
+    text-align: left; /* выравнивание текста по левому краю */
+ }
+
+ .Table {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* This will stack the children vertically */
+}
+
+.deleteButton {
+   float: right;
+   color: white;
+   background-color: red;
+}

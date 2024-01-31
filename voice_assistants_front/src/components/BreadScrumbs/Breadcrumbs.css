@@ -1,0 +1,27 @@
+.breadcrumps {
+    text-align: left;
+    max-width: 1240px;
+    margin: 10px auto;
+    > * {
+        display: inline-block;
+        margin-right: 10px;
+    }
+}
+.crump {
+    &:after {
+        color: #000000;
+        content: "->";
+        margin-left: 10px;
+    }
+
+    &:last-child {
+        &::after {
+            display: none;
+        }
+    }
+
+    :is(a) {
+        color: #000000;
+        text-decoration: none;
+    }
+}
